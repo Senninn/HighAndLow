@@ -30,7 +30,7 @@ public class SceneManager : MonoBehaviour
 
         foreach (var mark in marks)
         {
-            for (var num = 1; num <= 13; ++num)
+            for (var num = 2; num <= 14; ++num)
             {
                 var card = new Card.Data()
                 {
