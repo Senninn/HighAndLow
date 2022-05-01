@@ -20,7 +20,7 @@ public class Card : MonoBehaviour
     }
 
     public bool IsReverse = false;
-    [Range(1, 13)]
+    [Range(2, 14)]
     public int Number = 1;
     public Mark CurrentMark = Mark.Heart;
 
